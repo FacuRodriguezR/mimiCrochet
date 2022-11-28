@@ -88,12 +88,21 @@
   }
 
   .contacth1{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: var(--text-color);
   }
+  @media (min-width: 950px){
+    
+  }
   
   @media (min-width: 950px){
+
+    .contacth1{
+        font-size: 40px;
+        text-align: center;
+        color: var(--text-color);
+      }
   
     .contact {
       font-size: 20px;   
