@@ -18,7 +18,7 @@
   }
   
   body{
-    font-family: 'Encode Sans Condensed', sans-serif;
+    font-family: 'Amatic SC', cursive;
     background-color: var(--theme-color);
     color: var(--text-color);
     padding-top: 70px;
@@ -76,6 +76,8 @@
 
 .nameNav {
     color: var(--text-color);
+    font-size: 25px;
+    font-weight: bold ;
 }
 
 .logo{
@@ -104,8 +106,8 @@
 
 .menu a{
     color: var(--text-color);
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: bold;
     line-height: 50px;
     text-transform: uppercase;
 
@@ -127,7 +129,7 @@
   
   .menu a.selected::after,
   .menu a:hover::after {
-    opacity: 0.8;
+    opacity: 0.5;
   }
   
   .menu a:hover {
