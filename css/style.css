@@ -1,8 +1,8 @@
 /* general */
 :root {
-    --theme-color: #c9a9cc;
+    --theme-color: #FFEBEB;
     --primary-color: #7e3e6e;
-    --secondary-color: #f5afe6;
+    --secondary-color: #EBA8A8;
     --text-color-inverse: #FFFDED;
     --text-color: #404040;
     --navbar-shallow-color: #676767;
@@ -59,7 +59,7 @@
 .topheader{
     box-shadow: 0 4px 5px var(--navbar-shallow-color);
     position: fixed;
-    background-color: var(--menu-mobile-background-color);
+    background-color: var(--secondary-color);
     left: 0;
     top: 0;
     width: 100%;
@@ -150,6 +150,61 @@
 
 .footer-title a{
     color: var(--text-color-inverse);
+}
+
+/* Container cards */
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.cardsAmigurumi{ 
+  padding: 40px;  
+}
+
+.infoAmigurumi{
+  background-color: #ffffff;
+  padding: 60px;
+  border-radius: 0 0 20px 20px;
+  filter: drop-shadow(0 0 8px var(--text-color)) ;
+   
+}
+
+.infoAmigurumi p{
+  font-size: 20px;
+  font-family: poppins;
+
+}
+
+.price {
+  color: #58D42C;
+}
+
+.imageAmigurumi{
+  width: 302px;
+  height: 321px;
+  bottom: 10px;
+  border-radius: 20px 20px 0 0;
+}
+
+.buttonComprar{
+  width: 154px;
+  height: 46px;
+  border-radius: 30px;
+  background-color: #B3AEAE;
+  border-color: #B3AEAE;
+  padding: 10px;
+  font-size: 16px;
+  font-family: poppins;
+}
+.buttonComprar:hover{
+  background-color: #404040;
+  color: #bfbfbf;
+  transition: all ease-in-out .2s ;
+
 }
 
 @media ( max-width: 950px ) {
