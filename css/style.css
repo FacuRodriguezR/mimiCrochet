@@ -208,6 +208,11 @@
 }
 
 @media ( max-width: 950px ) {
+
+    .container {
+      display: block;
+      text-align: center;
+    }
  
     .menu{
         flex-direction: column;
